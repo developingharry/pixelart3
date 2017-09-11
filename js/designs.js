@@ -1,7 +1,5 @@
-// Use .keypress() and .change() if you want continuous update
 var rows;
 var cols;
-// var color = $('#colorPicker'.val());
 
 $('#rowsInput').keyup(function() {
     rows = parseFloat($(this).val());
@@ -15,8 +13,7 @@ $(".colorPickerHome").hide();
 
 $(".clickMe").click(function makeGrid() {
     $(".tableHome").empty();
-    $(".colorPickerHome").show();
-
+    $(".colorPickerHome").hide();
     for (var row = 0; row < rows; row++) {
         $('table').append("<tr></tr>");
     };
