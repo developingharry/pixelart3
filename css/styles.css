@@ -1,0 +1,15 @@
+table tr td {
+  border: 1px solid black;
+}
+td {
+  width:20px;
+  height:20px;
+  background-color:white;
+}
+body {
+font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h3{
+	margin: 0 auto;
+}
